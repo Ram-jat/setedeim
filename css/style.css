@@ -29,14 +29,20 @@
     font-weight: 600;
 } */
 
-.benar-img {
+/* .benar-img {
     width:100%;
     height: 100vh !important;
     background-color: #fff;
-    background-image: url(/img/istockphoto-1502846052-612x612.jpg);
+    background-image: url("/img/istockphoto-1502846052-612x612.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+} */
+
+.dsds{
+    object-fit: cover;
+    width: 100svw;
+    height: 100svh;
 }
 
 .imgs {
