@@ -1,0 +1,121 @@
+/* .benar-img{
+    background-image: url(/img/pngtree-green-field-inside-football-stadium-in-silhouette-under-sky-image_2628209.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    bottom: 0 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+} */
+/* .benar-bg {
+    background-color: black;
+
+
+}
+
+.contant-imges {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.gov-p {
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 600;
+} */
+
+.benar-img {
+    width:100%;
+    height: 100vh !important;
+    background-color: #fff;
+    background-image: url(/img/istockphoto-1502846052-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgs {
+    position: absolute;
+    top: 0 !important;
+    left: 50%;
+    bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.gov-p {
+    color: #fff;
+    /* margin-top: 10px; */
+    font-weight: 600;
+}
+.wtsaap-icon{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #40c351;
+    background-color: #40c351;
+    padding: 2px 25px;
+    border-radius:20px;
+    /* margin-top: -30px; */
+    
+}
+.wtsaap-icon{
+    width: 50%;
+    animation: twirk 0.7s ease-in-out infinite;
+}
+
+@keyframes twirk {
+    0% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        transform: skewY(-2deg);
+    }
+
+    100% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+}
+@media (max-width:768px) {
+    .main{
+        width: 350px;
+        height: 200px;
+    }
+    .logo-img{
+        width: 240px;
+        height: 80px;
+    }
+}
+@media (max-width:320px) {
+    .img-rs{
+        width: 230px;
+        /* height: 200px; */
+    }
+    .main{
+        width: 300px;
+        height: 200px;
+    }
+    .logo-img{
+        width: 230px;
+        height: 80px;
+    }
+    /* .logo-img{
+        width: 240px;
+        height: 80px;
+    } */
+}
